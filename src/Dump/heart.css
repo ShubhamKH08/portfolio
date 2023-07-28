@@ -1,0 +1,28 @@
+.heart{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    transform: rotate(45deg);
+}
+
+.heart::after, .heart::before{
+    content: "👁️";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.heart::after{
+    top: -50px;
+}
+
+.heart::before{
+    left: -50px;
+}

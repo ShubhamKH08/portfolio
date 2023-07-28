@@ -1,0 +1,19 @@
+.home-screen{
+    background-color: #f4f5f6;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.top-bar-static{
+    position: fixed;
+    z-index: 4;
+}
+
+.home-jsx-hero{
+    position: relative;
+    top:120px;
+}
